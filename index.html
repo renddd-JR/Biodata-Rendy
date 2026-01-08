@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Biografi Rendy Adi Saputra</title>
+  <style>
+    /* Animasi background warna */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(-45deg, #07e0d6, #ec3dfc, #20e784, #983dff);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+      color: #333;
+    }
+
+    @keyframes gradient {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    h1 {
+      text-align: center;
+      padding: 30px 0 10px;
+      font-size: 2.5rem;
+    }
+
+    .image-container {
+      text-align: center;
+    }
+
+    .image-container img {
+      width: 80%;
+      max-width: 700px;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      transition: transform 0.4s ease;
+    }
+
+    .image-container img:hover {
+      transform: scale(1.03);
+    }
+
+    .bio {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      font-size: 1.1rem;
+      text-align: justify;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .box-name {
+      text-align: center;
+      border: 2px solid black;
+      width: 220px;
+      margin: 1.5rem auto;
+      padding: 10px;
+      border-radius: 8px;
+      background-color: white;
+      font-weight: bold;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 90%;
+      max-width: 700px;
+      margin: 2rem auto;
+      background: white;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 12px 16px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #007acc;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    tr:hover {
+      background-color: #d0ebff;
+    }
+
+    caption {
+      caption-side: top;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      .bio {
+        font-size: 1rem;
+      }
+
+      .image-container img {
+        width: 95%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Biografi</h1>
+
+  <div class="image-container">
+    <img src="rend.jpg.jpeg" alt="Foto Rendy">
+  </div>
+
+  <div class="box-name">Rendy Adi Saputra</div>
+
+  <div class="bio">
+    <p>Nama saya Rendy Adi Saputra .</p>
+    <p>Saya lahir di Lampung Tengah pada tanggal 8 Agustus 2007.</p>
+    <p>Saya ber sekolah dasar di SDN 4 Gunung Madu, Divisi 4.</p>
+    <p>Sekarang saya sekolah di SMA Gunung Madu.</p>
+    <p>Makanan favorit saya adalah mi ayam.</p>
+    <p>Saya memiliki 1 saudara laki laki.</p>
+  </div>
+
+  <table>
+    <caption>Hobi & Pencapaian</caption>
+    <thead>
+      <tr>
+        <th>Hobi</th>
+        <th>Pencapaian</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Kelereng</td>
+        <td>Ikut jalan sehat</td>
+      </tr>
+      <tr>
+        <td>Bulu tangkis</td>
+        <td>pernah hattrick</td>
+      </tr>
+      <tr>
+        <td>Bola</td>
+        <td>Menang lomba</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
